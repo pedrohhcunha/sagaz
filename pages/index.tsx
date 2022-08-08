@@ -8,7 +8,7 @@ import { WhatsappButton } from '../components/WhatsappButton'
 
 const Home: NextPage = () => {
   return (
-    <>
+    <main className={styles.main}>
       <Head>
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com"></link>
@@ -60,7 +60,7 @@ const Home: NextPage = () => {
       <WhatsappButton
         phone={mook.whatsappButton.phone}
       />
-    </>
+    </main>
   )
 }
 
