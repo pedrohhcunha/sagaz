@@ -5,6 +5,7 @@ import mook from '../mocks/index.mook'
 import { RegisterForm } from '../components/RegisterForm'
 import { FaFacebook, FaInstagram, FaYoutube, FaLinkedin } from 'react-icons/fa'
 import { WhatsappButton } from '../components/WhatsappButton'
+import { Button } from '../components/Button'
 
 const Home: NextPage = () => {
   return (
@@ -33,7 +34,7 @@ const Home: NextPage = () => {
                 __html: mook.initialSection.callToAction
               }}></pre>
           </p>
-          <button className={styles.button}>{mook.initialSection.buttonText}</button>
+          <Button className={styles.button}>{mook.initialSection.buttonText}</Button>
         </div>
       </section>
       <section className={styles.videoSection}>
@@ -51,7 +52,7 @@ const Home: NextPage = () => {
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen></iframe>
         </div>
-        <button className={styles.button}>{mook.videoSection.buttonText}</button>
+        <Button className={styles.button}>{mook.videoSection.buttonText}</Button>
       </section>
       <section className={styles.formSection}>
         <p className={styles.description}>{mook.formSection.callToAction}</p>
