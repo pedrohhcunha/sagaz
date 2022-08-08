@@ -16,10 +16,25 @@ const Home: NextPage = () => {
         <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"></link>
       </Head>
       <section className={styles.initialSection}>
-        <h1 className={styles.title}>{mook.initialSection.title}</h1>
-        <h2 className={styles.subtitle}>{mook.initialSection.subTitle}</h2>
-        <p className={styles.description}>{mook.initialSection.callToAction}</p>
-        <button className={styles.button}>{mook.initialSection.buttonText}</button>
+        <div className={styles.logo}></div>
+        <h1>
+            <pre className={styles.title} dangerouslySetInnerHTML={{
+              __html: mook.initialSection.title
+            }}></pre>
+        </h1>
+        <h2>
+            <pre className={styles.subTitle} dangerouslySetInnerHTML={{
+              __html: mook.initialSection.subTitle
+            }}></pre>
+        </h2>
+        <div className={styles.actionArea}>
+          <p>
+              <pre className={styles.description} dangerouslySetInnerHTML={{
+                __html: mook.initialSection.callToAction
+              }}></pre>
+          </p>
+          <button className={styles.button}>{mook.initialSection.buttonText}</button>
+        </div>
       </section>
       <section className={styles.videoSection}>
         <h2 className={styles.title}>{mook.videoSection.title}</h2>

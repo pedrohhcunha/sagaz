@@ -1,8 +1,8 @@
 export default {
     initialSection: {
-        title: 'Quer vender mais, com ticket mais alto e ter mais lucratividade?',
-        subTitle: 'Estamos preparando muitas novidades sobre Marketing, Vendas e Growth que lhe ajudarão a montar uma verdadeira Máquina de Vendas!',
-        callToAction: 'Cadastre-se para ser avisado em primeira mão e para receber os links de nossas aulas gratuitas. ',
+        title: `Quer vender mais, \ncom ticket mais alto \n<strong>e ter mais lucratividade?</strong>`,
+        subTitle: 'Estamos preparando muitas novidades sobre \nMarketing, Vendas e Growth que lhe ajudarão \na montar uma verdadeira Máquina de Vendas!',
+        callToAction: 'Cadastre-se para ser avisado em primeira mão e \npara receber os links de nossas aulas gratuitas. ',
         buttonText: 'Quero me cadastrar'
     },
     videoSection: {
