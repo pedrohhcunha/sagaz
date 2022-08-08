@@ -37,9 +37,19 @@ const Home: NextPage = () => {
         </div>
       </section>
       <section className={styles.videoSection}>
-        <h2 className={styles.title}>{mook.videoSection.title}</h2>
+        <h2>
+            <pre className={styles.title} dangerouslySetInnerHTML={{
+              __html: mook.videoSection.title
+            }}></pre>
+        </h2>
         <div className={styles.video}>
-          <iframe title="video" src={mook.videoSection.video} frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+          <iframe
+            className={styles.iframe}
+            title="video de apresentação SAGAZ GROWT"
+            src={mook.videoSection.video}
+            frameBorder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen></iframe>
         </div>
         <button className={styles.button}>{mook.videoSection.buttonText}</button>
       </section>

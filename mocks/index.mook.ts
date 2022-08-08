@@ -6,8 +6,8 @@ export default {
         buttonText: 'Quero me cadastrar'
     },
     videoSection: {
-        title: 'Estratégias de Marketing e Vendas que geraram mais de R$ 250.000.000,00 em vendas nos últimos dois anos',
-        video: 'https://www.youtube.com/embed/QH2-TGUlwu4',
+        title: 'Estratégias de Marketing e \nVendas que geraram mais de \n<strong>R$ 100.000.000,00</strong> em vendas \nnos últimos dois anos',
+        video: 'https://www.youtube.com/embed/z8DSaVNZmq8',
         buttonText: 'Quero conhecer o método Sagaz'
     },
     formSection: {
