@@ -18,7 +18,7 @@ export function WhatsappButton({ phone }: Props) {
     
     return (
         <button className={styles.button} onClick={onClick}>
-            <FaWhatsapp />
+            <FaWhatsapp size={32} />
         </button>
     )
 }
