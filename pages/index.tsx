@@ -80,9 +80,7 @@ const Home: NextPage = () => {
           </a>
         </div>
       </section>
-      <footer className={styles.footer}>
-        <span>{mook.footer.text}</span>
-      </footer>
+      <footer className={styles.footer}>{mook.footer.text}</footer>
       <WhatsappButton
         phone={mook.whatsappButton.phone}
       />
