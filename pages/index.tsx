@@ -28,14 +28,12 @@ const Home: NextPage = () => {
               __html: mook.initialSection.subTitle
             }}></pre>
         </h2>
-        <div className={styles.actionArea}>
-          <p>
-              <pre className={styles.description} dangerouslySetInnerHTML={{
-                __html: mook.initialSection.callToAction
-              }}></pre>
-          </p>
-          <Button className={styles.button}>{mook.initialSection.buttonText}</Button>
-        </div>
+        <p>
+            <pre className={styles.description} dangerouslySetInnerHTML={{
+              __html: mook.initialSection.callToAction
+            }}></pre>
+        </p>
+        <Button>{mook.initialSection.buttonText}</Button>
       </section>
       <section className={styles.videoSection}>
         <h2>
@@ -52,7 +50,7 @@ const Home: NextPage = () => {
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen></iframe>
         </div>
-        <Button className={styles.button}>{mook.videoSection.buttonText}</Button>
+        <Button>{mook.videoSection.buttonText}</Button>
       </section>
       <section className={styles.formSection}>
         <p className={styles.description}>{mook.formSection.callToAction}</p>
