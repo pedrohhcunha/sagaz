@@ -11,7 +11,7 @@ export default {
         buttonText: 'Quero conhecer o método Sagaz'
     },
     formSection: {
-        callToAction: 'Se você se interessou por este método e quer crescer o seu negócio exponencialmente para receber nossas novidades em primeira mão. Além disso, você terá acesso gratuito a todas as aulas já gravadas pela equipe da Sagaz Growth Marketing.',
+        callToAction: '<strong>Se você se interessou</strong> por este método e quer crescer o seu negócio exponencialmente para receber nossas novidades em primeira mão. Além disso, você terá <strong><strong>acesso gratuito</strong></strong> a todas as aulas já gravadas pela equipe da <strong>Sagaz Growth Marketing.</strong>',
         form: {
             buttonText: 'Me cadastrar agora'
         }

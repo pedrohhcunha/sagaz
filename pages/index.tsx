@@ -53,7 +53,9 @@ const Home: NextPage = () => {
         <Button>{mook.videoSection.buttonText}</Button>
       </section>
       <section className={styles.formSection}>
-        <p className={styles.description}>{mook.formSection.callToAction}</p>
+        <p className={styles.description} dangerouslySetInnerHTML={{
+          __html: mook.formSection.callToAction
+        }}></p>
         <RegisterForm
           buttonText={mook.formSection.form.buttonText}
         />
