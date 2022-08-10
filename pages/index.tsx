@@ -57,7 +57,7 @@ const Home: NextPage = () => {
       </section>
       <section className={styles.finalSection}>
         <div className={styles.photoArea}>
-          <Image layout='fill' className={styles.photo} src={mook.finalSection.photo} alt={mook.finalSection.photoAlt} />
+          <Image priority layout='fill' className={styles.photo} src={mook.finalSection.photo} alt={mook.finalSection.photoAlt} />
         </div>
         <div className={styles.text}>
           {mook.finalSection.description.map((text, index) => {
