@@ -12,7 +12,9 @@ const Home: NextPage = () => {
   return (
     <main className={styles.main}>
       <section className={styles.initialSection}>
-        <div className={styles.logo}></div>
+        <div className={styles.logo}>
+          <Image src="/logo.svg" alt="logo" layout='fill' objectFit='fill' />
+        </div>
         <h1>
             <pre className={styles.title} dangerouslySetInnerHTML={{
               __html: mook.initialSection.title

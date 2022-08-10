@@ -36,14 +36,11 @@
         justify-content: center;
         flex-direction: column;
 
-        padding: 2rem 0;
-
         .logo{
-            width: 6rem;
-            height: 6rem;
+            position: relative;
 
-            background-color: var(--color-white);
-            margin-bottom: 2rem;
+            width: 400px;
+            height: 180px;
         }
 
         .subTitle{
