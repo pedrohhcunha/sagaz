@@ -28,8 +28,6 @@
     }
 
     .initialSection{
-        max-width: 90vw;
-        margin: 0 auto;
         width: 100%;
         height: 100vh;
 
@@ -208,10 +206,36 @@
 
     @media (max-width: 1024px){
 
+        .initialSection{
+            width: 100%;
+
+            padding: 1rem 10%;
+
+            text-align: center;
+
+            .subTitle{
+                font-size: 1rem;
+                line-height: 130%;
+                white-space: initial;
+                font-weight: 500;
+            }
+
+            .description{
+                font-size: .8rem;
+                line-height: 130%;
+                white-space: initial;
+                font-weight: 500;
+            }
+        }
+
         .title{
-            font-size: 1.8rem;
+            font-size: 1.6rem;
             width: 100%;
             white-space: initial;
+
+            strong{
+                white-space: pre;
+            }
         }
 
         .videoSection{
