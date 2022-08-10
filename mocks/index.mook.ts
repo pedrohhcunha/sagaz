@@ -17,9 +17,14 @@ export default {
         }
     },
     finalSection: {
-        photo: 'https://s3.amazonaws.com/sagaz-growth-marketing/assets/images/sagaz-growth-marketing-final-section.png',
+        photo: 'perfil.jpg',
         photoAlt: 'Sagaz Growth Marketing',
-        description: 'Olá me chamo Sidimar Sagaz, sou Publicitário, Especialista em Marketing e Mestre em Administração de Empresas pela Universidade Federal do Rio Grande do Sul. Sou empreendedor desde os 20 anos de idade e passei os últimos anos me dedicando a aprender mais sobre processos de vendas, marketing digital e formação de times de alta performance. Depois de desenvolver e aplicar inúmeras estratégias de Marketing e Vendas que geraram mais de 250 milhões de reais em faturamento para meus clientes somente nos últimos dois anos, decidi sair dos bastidores e revelar todo o meu método para estruturação de verdadeiras Máquinas de Vendas. Através da Sagaz Growth Marketing e de seu ecossistema potencializarei o poder de crescimento de profissionais e empresas. Me siga nas redes sociais para ficar por dentro de tudo! Até breve! #BoraCrescerJuntos',
+        description: [
+            'Olá me chamo <strong>Sidimar Sagaz</strong>, sou Publicitário, <strong>Especialista </strong>em Marketing e <strong>Mestre</strong> em Administração de Empresas pela Universidade Federal do Rio Grande do Sul. Sou empreendedor desde os 20 anos de idade e passei os últimos anos me dedicando a aprender mais sobre processos de vendas, marketing digital e formação de times de alta performance.',
+            'Depois de desenvolver e aplicar inúmeras <strong>estratégias de Marketing e Vendas</strong> que geraram mais de <strong>100 milhões de reais</strong> em faturamento para meus clientes somente nos últimos dois anos, decidi sair dos bastidores e revelar todo o meu método para estruturação de verdadeiras <strong>Máquinas de Vendas.</strong>',
+            'Através da <strong>Sagaz Growth Marketing</strong> e de seu ecossistema potencializarei o poder de crescimento de profissionais e empresas.',
+            '<strong>Me siga nas redes sociais para ficar por dentro de tudo!</strong> \nAté breve! <strong><strong>#BoraCrescerJuntos</strong></strong>'
+        ],
         instagram: 'https://www.instagram.com/sagazgrowthmarketing/',
         youtube: 'https://www.youtube.com/channel/UC-9-kyTW8ZkZNDHQJ6FgpwQ',
         facebook: 'https://www.facebook.com/sagazgrowthmarketing/',

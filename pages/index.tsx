@@ -64,19 +64,27 @@ const Home: NextPage = () => {
         <div className={styles.photoArea}>
           <img className={styles.photo} src={mook.finalSection.photo} alt={mook.finalSection.photoAlt} />
         </div>
-        <p className={styles.description}>{mook.finalSection.description}</p>
+        <div className={styles.text}>
+          {mook.finalSection.description.map(text => {
+            return (
+              <p className={styles.paragraph} dangerouslySetInnerHTML={{
+                __html: text
+              }}></p>
+            )
+          })}
+        </div>
         <div className={styles.socialMedia}>
           <a className={styles.socialMediaLink} href={mook.finalSection.facebook} target="_blank" rel="noopener noreferrer">
-            <FaFacebook />
+            <FaFacebook size={22} />
           </a>
           <a className={styles.socialMediaLink} href={mook.finalSection.instagram} target="_blank" rel="noopener noreferrer">
-            <FaInstagram />
+            <FaInstagram size={22} />
           </a>
           <a className={styles.socialMediaLink} href={mook.finalSection.youtube} target="_blank" rel="noopener noreferrer">
-            <FaYoutube />
+            <FaYoutube size={22} />
           </a>
           <a className={styles.socialMediaLink} href={mook.finalSection.linkedin} target="_blank" rel="noopener noreferrer">
-            <FaLinkedin />
+            <FaLinkedin size={22} />
           </a>
         </div>
       </section>
