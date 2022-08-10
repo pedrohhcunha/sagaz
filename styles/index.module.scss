@@ -208,6 +208,22 @@
 
     @media (max-width: 1024px){
 
+        .title{
+            font-size: 1.8rem;
+            width: 100%;
+            white-space: initial;
+        }
+
+        .videoSection{
+            width: 100%;
+            padding: 1rem 10%;
+
+            .video{
+                width: 100%;
+                padding-top: calc(9 / 16 * 100%);
+            }
+        }
+
         .formSection{
             flex-direction: column-reverse;
 
