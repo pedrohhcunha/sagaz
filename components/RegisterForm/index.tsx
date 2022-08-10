@@ -1,5 +1,5 @@
 import axios from 'axios'
-import { FormEvent, FormEventHandler, useState } from 'react'
+import { FormEvent, useState } from 'react'
 import { Button } from '../Button'
 import styles from './styles.module.scss'
 
@@ -69,7 +69,7 @@ export function RegisterForm({ buttonText }: { buttonText: string }) {
                     phone: event.target.value
                 })}
             />
-            <Button className={styles.button}>{buttonText}</Button>
+            <Button submit>{buttonText}</Button>
         </form>
     )
 }
