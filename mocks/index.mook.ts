@@ -25,10 +25,10 @@ export default {
             'Através da <strong>Sagaz Growth Marketing</strong> e de seu ecossistema potencializarei o poder de crescimento de profissionais e empresas.',
             '<strong>Me siga nas redes sociais para ficar por dentro de tudo!</strong> \nAté breve! <strong><strong>#BoraCrescerJuntos</strong></strong>'
         ],
-        instagram: 'https://www.instagram.com/sagazgrowthmarketing/',
-        youtube: 'https://www.youtube.com/channel/UC-9-kyTW8ZkZNDHQJ6FgpwQ',
-        facebook: 'https://www.facebook.com/sagazgrowthmarketing/',
-        linkedin: 'https://www.linkedin.com/company/sagaz-growth-marketing/'
+        instagram: 'https://www.instagram.com/sidimarsagaz',
+        youtube: 'https://www.youtube.com/channel/UCvNZOds5eKNSJ0qFxUUxgCA',
+        facebook: 'https://www.facebook.com/Sagaz-Growth-Marketing-106083101838578',
+        linkedin: 'https://www.linkedin.com/in/sidimar-sagaz'
     },
     footer: {
         text: 'Copyright © 2022 | SGZ Marketing e Vendas -CNPJ: 46.351.591/0001-42'
