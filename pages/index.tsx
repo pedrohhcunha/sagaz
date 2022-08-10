@@ -66,9 +66,9 @@ const Home: NextPage = () => {
           <Image layout='fill' className={styles.photo} src={mook.finalSection.photo} alt={mook.finalSection.photoAlt} />
         </div>
         <div className={styles.text}>
-          {mook.finalSection.description.map(text => {
+          {mook.finalSection.description.map((text, index) => {
             return (
-              <p className={styles.paragraph} dangerouslySetInnerHTML={{
+              <p key={index} className={styles.paragraph} dangerouslySetInnerHTML={{
                 __html: text
               }}></p>
             )
