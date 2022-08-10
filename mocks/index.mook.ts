@@ -6,7 +6,7 @@ export default {
         buttonText: 'Quero me cadastrar'
     },
     videoSection: {
-        title: 'Estratégias de Marketing e \nVendas que geraram mais de \n<strong>R$ 100.000.000,00</strong> em vendas \nnos últimos dois anos',
+        title: 'Estratégias de Marketing e \nVendas que geraram mais de \n<strong>R$ 100.000.000,00</strong> em vendas',
         video: 'https://www.youtube.com/embed/z8DSaVNZmq8',
         buttonText: 'Quero conhecer o método Sagaz'
     },
