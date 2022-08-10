@@ -34,6 +34,6 @@ export default {
         text: 'Copyright © 2022 | SGZ Marketing e Vendas -CNPJ: 46.351.591/0001-42'
     },
     whatsappButton: {
-        phone: '+55 (47) 9 9999-9999'
+        phone: '+55 (49) 9 8808 2806'
     }
 }
