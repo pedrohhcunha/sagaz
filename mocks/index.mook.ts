@@ -17,7 +17,7 @@ export default {
         }
     },
     finalSection: {
-        photo: 'perfil.jpg',
+        photo: '/perfil.jpg',
         photoAlt: 'Sagaz Growth Marketing',
         description: [
             'Olá me chamo <strong>Sidimar Sagaz</strong>, sou Publicitário, <strong>Especialista </strong>em Marketing e <strong>Mestre</strong> em Administração de Empresas pela Universidade Federal do Rio Grande do Sul. Sou empreendedor desde os 20 anos de idade e passei os últimos anos me dedicando a aprender mais sobre processos de vendas, marketing digital e formação de times de alta performance.',

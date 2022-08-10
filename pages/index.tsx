@@ -6,6 +6,7 @@ import { RegisterForm } from '../components/RegisterForm'
 import { FaFacebook, FaInstagram, FaYoutube, FaLinkedin } from 'react-icons/fa'
 import { WhatsappButton } from '../components/WhatsappButton'
 import { Button } from '../components/Button'
+import Image from 'next/image'
 
 const Home: NextPage = () => {
   return (
@@ -62,7 +63,7 @@ const Home: NextPage = () => {
       </section>
       <section className={styles.finalSection}>
         <div className={styles.photoArea}>
-          <img className={styles.photo} src={mook.finalSection.photo} alt={mook.finalSection.photoAlt} />
+          <Image layout='fill' className={styles.photo} src={mook.finalSection.photo} alt={mook.finalSection.photoAlt} />
         </div>
         <div className={styles.text}>
           {mook.finalSection.description.map(text => {
