@@ -85,7 +85,12 @@ const Home: NextPage = () => {
           </a>
         </div>
       </section>
-      <footer className={styles.footer}>{mook.footer.text}</footer>
+      <footer className={styles.footer}>
+        <div className={styles.logo}>
+          <Image src="/simbolo.svg" alt="logo" layout='fill' objectFit='fill' />
+        </div>
+        <span className={styles.text}>{mook.footer.text}</span>
+      </footer>
       <WhatsappButton
         phone={mook.whatsappButton.phone}
       />
