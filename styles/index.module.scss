@@ -8,6 +8,7 @@
     gap: 2rem;
 
     background-color: var(--color-primary);
+    background-size: cover;
 
     background-image: url('/full-backgroung.png');
 
@@ -37,6 +38,7 @@
         padding-bottom: 4rem;
 
         background-image: url('/background.png');
+        background-size: cover;
 
         .logo{
             position: relative;
