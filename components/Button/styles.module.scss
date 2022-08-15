@@ -20,6 +20,8 @@
     cursor: pointer;
     transition: all .2s ease-in-out;
 
+    animation: button-animation 2s ease-in-out infinite;
+
     &:hover{
         background-color: var(--color-secondary-light3);
     }
@@ -29,5 +31,18 @@
         width: 100%;
 
         font-size: .9rem;
+    }
+
+    @keyframes button-animation {
+        0% {
+            transform: translateY(0);
+        }
+        50% {
+            transform: translateY(.5rem) scale(1.05);
+            filter: brightness(1.5);
+        }
+        100% {
+            transform: translateY(0);
+        }
     }
 }
