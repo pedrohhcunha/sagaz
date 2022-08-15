@@ -29,6 +29,26 @@
   font-family: var(--font-primary);
   font-size: 1rem;
   font-weight: normal;
+
+  overflow: hidden;
+}
+
+html{
+  overflow-y: scroll;
+
+  &::-webkit-scrollbar {
+    width: .5rem;
+    background: var(--color-primary-light4);
+  }
+
+  &::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: var(--color-secondary-light2);
+    border-radius: 10px;
+  }
 }
 
 a {
