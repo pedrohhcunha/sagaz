@@ -1,5 +1,4 @@
 import type { NextPage } from 'next'
-import Head from 'next/head'
 import styles from '../styles/index.module.scss'
 import mook from '../mocks/index.mook'
 import { RegisterForm } from '../components/RegisterForm'
