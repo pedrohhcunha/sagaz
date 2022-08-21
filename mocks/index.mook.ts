@@ -20,9 +20,9 @@ export default {
         photo: '/perfil.jpg',
         photoAlt: 'Sagaz Growth Marketing',
         description: [
-            'Olá me chamo <strong>Sidimar Sagaz</strong>, sou Publicitário, <strong>Especialista </strong>em Marketing e <strong>Mestre</strong> em Administração de Empresas pela Universidade Federal do Rio Grande do Sul. Sou empreendedor desde os 20 anos de idade e passei os últimos anos me dedicando a aprender mais sobre processos de vendas, marketing digital e formação de times de alta performance.',
+            'Olá! Me chamo <strong>Sidimar Sagaz</strong>, sou Publicitário, <strong>Especialista </strong>em Marketing e <strong>Mestre</strong> em Administração de Empresas pela Universidade Federal do Rio Grande do Sul. Sou empreendedor desde os 20 anos de idade e passei os últimos anos me dedicando a aprender mais sobre processos de vendas, marketing digital e formação de times de alta performance.',
             'Depois de desenvolver e aplicar inúmeras <strong>estratégias de Marketing e Vendas</strong> que geraram mais de <strong>100 milhões de reais</strong> em faturamento para meus clientes, decidi sair dos bastidores e revelar todo o meu método para estruturação de verdadeiras <strong>Máquinas de Vendas.</strong>',
-            'Através da <strong>Sagaz Growth Marketing</strong> e de seu ecossistema potencializarei o poder de crescimento de profissionais e empresas.',
+            'Através da <strong>Sagaz Growth Marketing</strong> e de seu ecossistema, potencializarei o poder de crescimento de profissionais e empresas.',
             '<strong>Me siga nas redes sociais para ficar por dentro de tudo!</strong> \nAté breve! <strong><strong>#BoraCrescerJuntos</strong></strong>'
         ],
         instagram: 'https://www.instagram.com/sidimarsagaz',
