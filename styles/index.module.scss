@@ -161,30 +161,6 @@
             }
         }
 
-        .socialMedia{
-            display: flex;
-            align-self: flex-start;
-            align-items: center;
-            justify-content: flex-start;
-
-            gap: 1rem;
-
-            .socialMediaLink{
-                width: 42px;
-                height: 42px;
-                
-                background-color: var(--color-white);
-                
-                display: flex;
-                align-items: center;
-                justify-content: center;
-
-                color: var(--color-primary);
-
-                border-radius: 50%;
-            }
-        }
-
     }
 
     .footer{

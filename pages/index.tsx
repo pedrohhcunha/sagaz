@@ -2,10 +2,10 @@ import type { NextPage } from 'next'
 import styles from '../styles/index.module.scss'
 import mook from '../mocks/index.mook'
 import { RegisterForm } from '../components/RegisterForm'
-import { FaFacebook, FaInstagram, FaYoutube, FaLinkedin } from 'react-icons/fa'
 import { WhatsappButton } from '../components/WhatsappButton'
 import { Button } from '../components/Button'
 import Image from 'next/image'
+import { SocialMedia } from '../components/SocialMedia'
 
 const Home: NextPage = () => {
   return (
@@ -69,20 +69,9 @@ const Home: NextPage = () => {
             )
           })}
         </div>
-        <div className={styles.socialMedia}>
-          <a className={styles.socialMediaLink} href={mook.finalSection.facebook} target="_blank" rel="noopener noreferrer">
-            <FaFacebook size={22} />
-          </a>
-          <a className={styles.socialMediaLink} href={mook.finalSection.instagram} target="_blank" rel="noopener noreferrer">
-            <FaInstagram size={22} />
-          </a>
-          <a className={styles.socialMediaLink} href={mook.finalSection.youtube} target="_blank" rel="noopener noreferrer">
-            <FaYoutube size={22} />
-          </a>
-          <a className={styles.socialMediaLink} href={mook.finalSection.linkedin} target="_blank" rel="noopener noreferrer">
-            <FaLinkedin size={22} />
-          </a>
-        </div>
+        <SocialMedia
+          align="left"
+        />
       </section>
       <footer className={styles.footer}>
         <div className={styles.logo}>

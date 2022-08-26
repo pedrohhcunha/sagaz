@@ -1,0 +1,21 @@
+.socialMedia{
+    display: flex;
+    align-items: center;
+
+    gap: 1rem;
+
+    .socialMediaLink{
+        width: 42px;
+        height: 42px;
+        
+        background-color: var(--color-white);
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        color: var(--color-primary);
+
+        border-radius: 50%;
+    }
+}

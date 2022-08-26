@@ -34,7 +34,7 @@
 }
 
 html{
-  overflow-y: scroll;
+  overflow-y: auto;
 
   &::-webkit-scrollbar {
     width: .5rem;
