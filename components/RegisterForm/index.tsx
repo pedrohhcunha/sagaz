@@ -19,20 +19,21 @@ export function RegisterForm({ buttonText }: { buttonText: string }) {
         event.preventDefault()
         setIsSending(true)
 
-        const response = await axios.post('/api/register', formData)
+        await axios.post('/api/register', formData)
 
-        if(response.status === 200) {
-            setIsSending(false)
-            setFormData({
-                name: '',
-                email: '',
-                phone: ''
-            })
-        }
+        setIsSending(false)
+        setFormData({
+            name: '',
+            email: '',
+            phone: ''
+        })
+
+        window.location.href = '/obrigado'
+
     }
 
     return (
-        <form className={`
+        <form id="form" className={`
             ${styles.form}
             ${isSending ? styles.isSending : ''}
         `} onSubmit={event => sendData(event)}>
@@ -69,7 +70,7 @@ export function RegisterForm({ buttonText }: { buttonText: string }) {
                     phone: event.target.value
                 })}
             />
-            <Button submit>{buttonText}</Button>
+            <Button onClick={sendData}>{buttonText}</Button>
         </form>
     )
 }
