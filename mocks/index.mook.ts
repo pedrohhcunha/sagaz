@@ -7,7 +7,7 @@ export default {
     },
     videoSection: {
         title: 'Estratégias de Marketing e \nVendas que geraram mais de \n<strong>R$ 100.000.000,00</strong> em vendas',
-        video: 'https://www.youtube.com/embed/z8DSaVNZmq8',
+        video: 'https://www.youtube.com/embed/DJbk1ySv9Gs',
         buttonText: 'Quero conhecer o método Sagaz'
     },
     formSection: {
