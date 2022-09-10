@@ -6,10 +6,14 @@ import { WhatsappButton } from '../components/WhatsappButton'
 import { Button } from '../components/Button'
 import Image from 'next/image'
 import { SocialMedia } from '../components/SocialMedia'
+import Head from 'next/head'
 
 const Home: NextPage = () => {
   return (
     <main className={styles.main}>
+      <Head>
+        <title>Sagaz Growth Marketing. Especialista em Máquina de Vendas</title>
+      </Head>
       <section className={styles.initialSection}>
         <div className={styles.logo}>
           <Image src="/logo.svg" alt="logo" layout='fill' objectFit='fill' />
