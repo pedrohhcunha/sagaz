@@ -15,7 +15,7 @@ const Home: NextPage = () => {
         <title>Sagaz Growth Marketing. Especialista em Máquina de Vendas</title>
         <meta
           name="description"
-          content="Depois de desenvolver e aplicar inúmeras estratégias de Marketing e Vendas que geraram mais de 100 milhões de reais em faturamento para meus clientes, decidi sair dos bastidores e revelar todo o meu método para estruturação de verdadeiras Máquinas de Vendas. Através da Sagaz Growth Marketing e de seu ecossistema, potencializarei o poder de crescimento de profissionais e empresas."
+          content="Depois de desenvolver e aplicar inúmeras estratégias de Marketing e Vendas que geraram mais de 100 milhões de reais em faturamento para meus clientes, decidi sair dos bastidores e revelar todo o meu método para estruturação de verdadeiras Máquinas de Vendas."
         />
         <meta
           name="keywords"
@@ -24,7 +24,7 @@ const Home: NextPage = () => {
         <meta name="author" content="Sidimar Sagaz" />
         <meta name="robots" content="index, follow" />
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
-        <meta name="canonical" content="https://sagaz.cc/" />
+        <link rel='canonical' href='https://sagaz.cc/' />
       </Head>
       <section className={styles.initialSection}>
         <div className={styles.logo}>
