@@ -44,8 +44,6 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse<
 
   const response = await axios.post(ENDPOINT, BODY, OPTIONS)
 
-  console.log(response)
-
   if(!response.data.hasOwnProperty('event_uuid')) {
     res.status(500).json({
       success: false,
