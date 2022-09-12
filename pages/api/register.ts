@@ -22,12 +22,6 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse<
     })
   }
 
-  const OPTIONS = {
-    headers: {
-      Authorization: `Bearer ${getAccessToken()}`
-    }
-  }
-
   const ENDPOINT = `${process.env.RD_ENDPOINT}/platform/events`
 
   const BODY = {
@@ -41,7 +35,16 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse<
     }
   }
 
+  const OPTIONS = {
+    headers: {
+      'Content-Type': 'application/json',
+      'Authorization': `Bearer ${await getAccessToken()}`
+    }
+  }
+
   const response = await axios.post(ENDPOINT, BODY, OPTIONS)
+
+  console.log(response)
 
   if(!response.data.hasOwnProperty('event_uuid')) {
     res.status(500).json({
